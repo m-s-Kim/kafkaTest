@@ -55,7 +55,7 @@ max.request.size : 단일 요청으로 보낼 수 있는 최대 메시지의 크
 batch.size : 단일 배치 요청으로 단일 파티션에 요청을 보낼 수 있는 메시지들의 크기의 최대 합을 의미합니다.
 linger.ms : producer가 batch.size에 도달하기까지 기다릴 수 있는 시간입니다.
 
--하나의 request가 만들어지는 절차
+request가 만들어지는 절차
 
 1. message가 발행된다.
 
