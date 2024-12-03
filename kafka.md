@@ -84,4 +84,7 @@ poll configuration
 
 출처 : https://onepredict.github.io/kafka-message-flow-producer/
 
+참조 : 
+
+https://kafka.apache.org/20/documentation.html#introduction
 
