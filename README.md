@@ -56,11 +56,16 @@ batch.size : 단일 배치 요청으로 단일 파티션에 요청을 보낼 수
 linger.ms : producer가 batch.size에 도달하기까지 기다릴 수 있는 시간입니다.
 
 -하나의 request가 만들어지는 절차
-message가 발행된다.
-message들의 합이 batch.size가 될 떄 까지 기다린다.
-linger.ms보다 먼저 batch.size를 넘어 설 경우, batch.size 크기로 batch를 묶는다.
-linger.ms에 먼저 도달할 경우, 도달 전까지의 데이터만 batch 단위로 묶는다.
-max.request.size보다 message 크기가 작은 경우만 전송이 완료된다.
+
+1. message가 발행된다.
+
+2. message들의 합이 batch.size가 될 떄 까지 기다린다.
+
+3. linger.ms보다 먼저 batch.size를 넘어 설 경우, batch.size 크기로 batch를 묶는다.
+
+4. linger.ms에 먼저 도달할 경우, 도달 전까지의 데이터만 batch 단위로 묶는다.
+
+5. max.request.size보다 message 크기가 작은 경우만 전송이 완료된다.
 
 
 ![image](https://github.com/user-attachments/assets/c27d0daf-788d-41d1-a0d6-3bd7f59cc42d)
