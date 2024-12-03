@@ -22,16 +22,18 @@ FlowFile Repository :
 Content Repository : 
  실제 데이터를 저장하는 곳으로써 데이터를 블럭화해서 저장할 수 있습니다.
 
+FlowFile : 
+ 예를들어 DBCP를 이용해서 DB 연결 정보를 Processor간에 공유 가능하다.
+ 일반적인 데이터를 인식하는 데이터 단위
+ Processor와 Processor를 이동할 때 마다 복사본이 만들어져서 추적이 가능 (내용 복사는 아니고 포인트 정보만 복사)
+
 Provenance Repository : 
  FlowFile를 처리했던 event 정보들을 보관하는 곳입니다. 아래와 같이 FlowFile이 각 Processor를 거쳤을 때 content 또는 attribute 값이 계속해서 변경이되는데  Provenance Repository를 통해서 해당 FlowFile의 모든 변화 과정을 볼 수 있습니다. 가장 유용하게 사용할 수 있는 것은 Processor의 전, 후 값들을 비교하며 볼 수 있다는 점입니다. 최종 FlowFile이 원하는 결과가 아닐 때, 어느 Processor에서 잘못되었는지를 확인할 수 있습니다.
  
 Connection : 
  Processor과 Processor을 연결해 FlowFile을 전달
 
-FlowFile : 
- 예를들어 DBCP를 이용해서 DB 연결 정보를 Processor간에 공유 가능하다.
- 일반적인 데이터를 인식하는 데이터 단위
- Processor와 Processor를 이동할 때 마다 복사본이 만들어져서 추적이 가능 (내용 복사는 아니고 포인트 정보만 복사)
+
 
 
  ![image](https://github.com/user-attachments/assets/cbfca5cd-0089-4fb5-b493-491369ee08df)
