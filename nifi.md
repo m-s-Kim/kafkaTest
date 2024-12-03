@@ -39,10 +39,15 @@ Connection :
 
 
  출처 : https://taaewoo.tistory.com/40#Cluster%--Coordinator
+ 
 
 
 
 
-참조 : https://github.com/apache/nifi
+참조 
+
+https://github.com/apache/nifi
 
 https://nifi.apache.org/components/
+
+https://nifi.apache.org/docs/nifi-docs/html/overview.html#nifi-architecture
