@@ -11,7 +11,7 @@ Web Server :
 Flow Controller : 
  NiFi가 사용하는 스케줄러이다
  Processor들을 관리하는 주체로써 thread를 할당할 수 있고 스케쥴링할 수 있습니다.
- 특정 간격 또는 Cron 표현식( 으로 스케줄링을 할 수 있으며, 클러스터 환경에서 동시에 실행되는 것을 막기 위해 Primary Node에서만 실행할 수도 있다.
+ 특정 간격 또는 Cron 표현식( 으로 스케줄링을 할 수 있으며, 클러스터 환경에서 동시에 실행되는 것을 막기 위해 Primary Node(Primary Node는 여러 노드에서 Processor가 실행되지 않고, 특정 단일 노드에서만 실행하고자 할때 사용하는 대표 노드)에서만 실행할 수도 있다.
  Controller Service를 이용해 Processor간 자원을 공유할 수 있다.
  
 Extension :
