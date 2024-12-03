@@ -37,6 +37,11 @@ Connection :
 
 
 
+참조 : https://github.com/apache/nifi
+https://nifi.apache.org/components/
+
+
+
  ![image](https://github.com/user-attachments/assets/cbfca5cd-0089-4fb5-b493-491369ee08df)
 
 
