@@ -17,9 +17,14 @@ Partition
 새메시지가 파티션에 추가될 때마다 그 멧지에는 마지막 메시지의 오프셋에 1을 더한 값에 할당된다.
 ex) Message A 다음에 Message B를 저장하면 Mesage B는 offset 1 이 할당된다.
 
-이와 같은 구조로 인해 메시지의 순서가 보되므로 컨슈머는 데이터를 정확한 순서대로 처리 할 수 있따.
-파티션 복제시 
-replication factor= 1
+이와 같은 구조로 인해 메시지의 순서가 보되므로 컨슈머는 데이터를 정확한 순서대로 처리 할 수 있다.
+
+
+ ![image](https://github.com/user-attachments/assets/c4d1b99f-abb4-446a-be63-eda1de821512)
+카프카는 리더가 장애가 발생하면 기존의 팔로워 중 하나가 리더가 될 수 있는 Failover 방식을 채용하고 있다. 자세한 것은 아래의 ISR 에서 이어서 설명하겠다.
+
+출처 : https://ggop-n.tistory.com/91
+ 
 
 
 ![image](https://github.com/user-attachments/assets/eac5db86-81ff-494f-88b1-c83e0157b4f4)
@@ -33,8 +38,4 @@ replication factor= 1
  출처 : https://medium.com/@greg.shiny82/apache-kafka-%EA%B0%84%EB%9E%B5%ED%95%98%EA%B2%8C-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-343ad84a959b
 
 
- ![image](https://github.com/user-attachments/assets/c4d1b99f-abb4-446a-be63-eda1de821512)
-카프카는 리더가 장애가 발생하면 기존의 팔로워 중 하나가 리더가 될 수 있는 Failover 방식을 채용하고 있다. 자세한 것은 아래의 ISR 에서 이어서 설명하겠다.
 
-출처 : https://ggop-n.tistory.com/91
- 
