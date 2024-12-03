@@ -90,3 +90,6 @@ https://kafka.apache.org/20/documentation.html#introduction
 
 https://medium.com/mo-zza/kafka-kraft-%EB%AA%A8%EB%93%9C-with-docker-%EB%8F%99%EB%AC%BC%EC%9B%90%EC%9D%84-%ED%83%88%EC%B6%9C%ED%95%9C-kafka-8b5e7c7632fa
 
+https://oliveyoung.tech/2024-10-16/oliveyoung-scm-oms-kafka/
+
+https://devocean.sk.com/blog/techBoardDetail.do?ID=165711&boardType=techBlog#none
