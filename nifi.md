@@ -3,6 +3,7 @@
 
 ![image](https://github.com/user-attachments/assets/baa7cad6-2796-4873-b10e-1eae3daf7864)
 
+JDK 21 이상 지원 
 
 Web Server : 
  NiFi의 UI를 제공하는 Web Server로써 API를 사용할 수 있습니다.
