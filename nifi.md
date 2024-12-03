@@ -35,14 +35,14 @@ Connection :
  Processor과 Processor을 연결해 FlowFile을 전달
 
 
-
-
-참조 : https://github.com/apache/nifi
-https://nifi.apache.org/components/
-
-
-
  ![image](https://github.com/user-attachments/assets/cbfca5cd-0089-4fb5-b493-491369ee08df)
 
 
  출처 : https://taaewoo.tistory.com/40#Cluster%--Coordinator
+
+
+
+
+참조 : https://github.com/apache/nifi
+
+https://nifi.apache.org/components/
