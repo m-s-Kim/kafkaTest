@@ -28,6 +28,7 @@ ex) Message A 다음에 Message B를 저장하면 Mesage B는 offset 1 이 할�
 
 
  ![image](https://github.com/user-attachments/assets/c4d1b99f-abb4-446a-be63-eda1de821512)
+ 
 카프카는 리더가 장애가 발생하면 기존의 팔로워 중 하나가 리더가 될 수 있는 Failover 방식을 채용하고 있다.
 
 출처 : https://ggop-n.tistory.com/91
