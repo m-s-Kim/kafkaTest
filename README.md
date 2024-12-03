@@ -45,4 +45,14 @@ ex) Message A 다음에 Message B를 저장하면 Mesage B는 offset 1 이 할�
  출처 : https://medium.com/@greg.shiny82/apache-kafka-%EA%B0%84%EB%9E%B5%ED%95%98%EA%B2%8C-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-343ad84a959b
 
 
+#Flow
+
+![image](https://github.com/user-attachments/assets/37036228-fd03-4e26-beb0-249f073acd9a)
+
+
+![image](https://github.com/user-attachments/assets/c27d0daf-788d-41d1-a0d6-3bd7f59cc42d)
+
+
+출철 : https://onepredict.github.io/kafka-message-flow-producer/
+
 
