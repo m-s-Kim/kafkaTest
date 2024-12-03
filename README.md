@@ -9,6 +9,9 @@
 ex) Message A 다음에 Message B를 저장하면 Mesage B는 offset 1 이 할당된다.
 
 이와 같은 구조로 인해 메시지의 순서가 보되므로 컨슈머는 데이터를 정확한 순서대로 처리 할 수 있따.
+파티션 복제시 
+replication factor= 1
+
 
 ![image](https://github.com/user-attachments/assets/eac5db86-81ff-494f-88b1-c83e0157b4f4)
 
