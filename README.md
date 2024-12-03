@@ -75,6 +75,7 @@ Kafka Cluster 내부의 coordinator(zookeeper, kraft)와 통신하여 어떻게 
 
 poll configuration
 데이터를 poll 할 시, 아래와 같은 설정값에 의해 동작이 달라질 수 있습니다. max.poll.records(default : 500)에 의해 fetcher로부터 가져 올 record 수가 정해진다. max.poll.interval.ms : poll 요청을 받은 메시지를 처리할 때 까지 최대 기다릴 수 있는 시간. 이 시간이 초과한다면, 해당 consumer는 rebalancing 될 때 consumer group에서 제외대상이 된다.
-출철 : https://onepredict.github.io/kafka-message-flow-producer/
+
+출처 : https://onepredict.github.io/kafka-message-flow-producer/
 
 
