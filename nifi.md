@@ -43,7 +43,7 @@ Connection
 
 
 FlowFile
-예를들어 DBCPConnectionPool을 이용해서 DB 연결 정보를 Processor간에 공유 가능하다.
+예를들어 DBCP를 이용해서 DB 연결 정보를 Processor간에 공유 가능하다.
 
 일반적인 데이터를 인식하는 데이터 단위
 
