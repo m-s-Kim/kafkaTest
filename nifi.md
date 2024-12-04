@@ -3,6 +3,9 @@
 
 ![image](https://github.com/user-attachments/assets/baa7cad6-2796-4873-b10e-1eae3daf7864)
 
+
+ 빅데이터와 관련된 주제로써 이번에는 NiFi를 소개하겠습니다. NiFi는 미국 국가안보국(NSA)에서 Apache에 기증한 dataflow 엔진입니다. 기본적으로 데이터를 Extract, Transformation, Load (ETL)할 수 있는 툴로써 UI를 통해 다양한 기능들을 통해 데이터들을 flow화 시킬 수 있습니다
+
 JDK 21 이상 지원 
 
 Web Server : 
